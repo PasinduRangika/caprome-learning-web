@@ -1,0 +1,127 @@
+@media (max-width: 767.98px) {
+  .section-hero {
+    padding-top: 90px;
+  }
+  .section-hero__start-video img {
+    width: 30px;
+    height: auto;
+  }
+  .section-hero__start-video {
+    font-size: 16px;
+  }
+  .section-films__film-container .img-1.active {
+    border: 3px solid #fbc02d;
+    margin: 10px 5px;
+  }
+
+  .section-films__film-container .img-2.active {
+    border: 3px solid #fbc02d;
+    margin: 10px 5px;
+  }
+
+  .section-films__film-container .img-3.active {
+    border: 3px solid #fbc02d;
+    margin: 10px 5px;
+  }
+
+  .section-films__film-container .img-1 {
+    margin: 10px 5px;
+  }
+
+  .section-films__film-container .img-2 {
+    margin: 10px 5px;
+  }
+
+  .section-films__film-container .img-3 {
+    margin: 10px 5px;
+  }
+
+  .section-films__film-container .img-1 img,
+  .section-films__film-container .img-2 img,
+  .section-films__film-container .img-3 img {
+    width: 100px;
+    height: 150px;
+  }
+
+  .section-films__film-container .img-1.active img,
+  .section-films__film-container .img-2.active img,
+  .section-films__film-container .img-3.active img {
+    width: 120px;
+    height: 180px;
+  }
+  .section-films__slider-wrapper {
+    min-height: 250px;
+  }
+  .section-testimonials__row {
+    flex-direction: column;
+  }
+  .section-testimonials__profile-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+  .section-testimonials__content-side {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 35px;
+  }
+  .section-testimonials {
+    padding: 0px 0px;
+  }
+  .section-coach__second-row {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .section-coach__profile-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .section-coach__middle-line {
+    display: none;
+  }
+  .section-coach__content-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    text-align: center;
+  }
+  .section-coach__testimonial-2 img {
+    width: 100px;
+    height: 100px;
+  }
+  .section-coach__testimonial-1.active img {
+    width: 110px;
+    height: 110px;
+  }
+  .section-coach__testimonial-2.active img {
+    width: 110px;
+    height: 110px;
+  }
+  .section-coach__testimonial-1 img {
+    width: 100px;
+    height: 100px;
+  }
+  .section-banner__text-wrap h1 {
+    font-size: 30px;
+    color: var(--tertiary-text-color);
+  }
+  .section-banner__text-wrap {
+    position: absolute;
+    top: 20px;
+    width: fit-content;
+  }
+  .section-banner__text-wrap h1 {
+    letter-spacing: 0px;
+  }
+  .section-tvshow__topcard {
+    width: 50%;
+  }
+}

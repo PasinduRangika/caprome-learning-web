@@ -1,0 +1,48 @@
+@media (max-width: 1199.98px) {
+  .section-hero__des.des-2 {
+    position: absolute;
+    top: 220px;
+  }
+  .section-hero__btn-full-bio {
+    top: 340px;
+  }
+  .section-hero__start-video {
+    right: 10px;
+    bottom: 50px;
+  }
+
+  .section-fims__right-section {
+    padding: 88px 25px 40px 25px;
+  }
+  .section-form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-form__side {
+    display: block;
+    width: 100%;
+    height: 700px;
+  }
+  .section-form__form-contact {
+    background-color: #ebeff9;
+    padding: 50px 10px;
+    position: relative;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .section-banner__img-wrap {
+    margin-top: -20px;
+  }
+  .section-banner__text-wrap {
+    position: absolute;
+    top: 60px;
+    width: fit-content;
+  }
+  .section-banner__text-wrap h1 {
+    font-size: 60px;
+    color: var(--tertiary-text-color);
+  }
+}
