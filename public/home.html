@@ -837,8 +837,12 @@
         <div class="row justify-content-start feature-content" id="tech">
           <div class="swiper-container teacher-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">Teacher Slide 1</div>
-              <div class="swiper-slide">Teacher Slide 2</div>
+              <div class="swiper-slide">
+                <div class="section-features__slide slide-1"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="section-features__slide slide-2"></div>
+              </div>
               <div class="swiper-slide">Teacher Slide 3</div>
               <div class="swiper-slide">Teacher Slide 4</div>
             </div>
@@ -887,7 +891,7 @@
       <script>
         // Initialize Swipers for each section
         const teacherSwiper = new Swiper(".teacher-swiper", {
-          slidesPerView: 2.1,
+          slidesPerView: 2.5,
           spaceBetween: 15,
           navigation: {
             nextEl: ".swiper-button-next",
