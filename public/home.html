@@ -105,7 +105,7 @@
           </div>
           <div class="col-6">
             <div class="section-hero__img-wrap">
-              <img src="../wp-content/uploads/Caprome hero img.png" alt="" />
+              <img src="../wp-content/uploads/caprome-hero-img.png" alt="" />
             </div>
           </div>
         </div>
@@ -368,19 +368,19 @@
         </div>
         <div class="row section-usecase__navigation">
           <div class="col-2 d-flex justify-content-center">
-            <button class="nav-button active" data-target="teacher">Teacher</button>
+            <button class="nav-buttons actives" data-target="teacher">Teacher</button>
           </div>
           <div class="col-2 d-flex justify-content-center">
-            <button class="nav-button" data-target="leaders">Leader</button>
+            <button class="nav-buttons" data-target="leaders">Leader</button>
           </div>
           <div class="col-2 d-flex justify-content-center">
-            <button class="nav-button" data-target="student">Student</button>
+            <button class="nav-buttons" data-target="student">Student</button>
           </div>
           <div class="col-2 d-flex justify-content-center">
-            <button class="nav-button" data-target="parent">Parent</button>
+            <button class="nav-buttons" data-target="parent">Parent</button>
           </div>
         </div>
-        <div class="row justify-content-center section-usecase__navigtion-section" id="teacher">
+        <div class="row justify-content-center section-usecase__navigtion-section align-items-center" id="teacher">
           <div class="col-5 section-usecase__content-side">
             <h3 class="section-usecase__title">Teacher</h3>
             <p class="section-usecase__des">
@@ -483,14 +483,15 @@
           </div>
           <div class="col-5 d-flex justify-content-center">
             <div class="album-container">
-              <div class="album-item item-large"></div>
-              <div class="album-item item-tall"></div>
-              <div class="album-item item-small"></div>
-              <div class="album-item item-wide"></div>
+              <img src="../wp-content/uploads/caprome-teacher.png" alt="" />
             </div>
           </div>
         </div>
-        <div class="row justify-content-center section-usecase__navigtion-section" id="leaders" style="display: none">
+        <div
+          class="row justify-content-center section-usecase__navigtion-section align-items-center"
+          id="leaders"
+          style="display: none"
+        >
           <div class="col-5 section-usecase__content-side">
             <h3 class="section-usecase__title">Leader</h3>
             <p class="section-usecase__des">
@@ -570,15 +571,16 @@
           </div>
           <div class="col-5 d-flex justify-content-center">
             <div class="album-container">
-              <div class="album-item item-large"></div>
-              <div class="album-item item-tall"></div>
-              <div class="album-item item-small"></div>
-              <div class="album-item item-wide"></div>
+              <img src="../wp-content/uploads/caprome-leader.png" alt="" />
             </div>
           </div>
         </div>
 
-        <div class="row justify-content-center section-usecase__navigtion-section" id="student" style="display: none">
+        <div
+          class="row justify-content-center section-usecase__navigtion-section align-items-center"
+          id="student"
+          style="display: none"
+        >
           <div class="col-5 section-usecase__content-side">
             <h3 class="section-usecase__title">Student</h3>
             <p class="section-usecase__des">
@@ -644,14 +646,15 @@
           </div>
           <div class="col-5 d-flex justify-content-center">
             <div class="album-container">
-              <div class="album-item item-large"></div>
-              <div class="album-item item-tall"></div>
-              <div class="album-item item-small"></div>
-              <div class="album-item item-wide"></div>
+              <img src="../wp-content/uploads/caprome-student.png" alt="" />
             </div>
           </div>
         </div>
-        <div class="row justify-content-center section-usecase__navigtion-section" id="parent" style="display: none">
+        <div
+          class="row justify-content-center section-usecase__navigtion-section align-items-center"
+          id="parent"
+          style="display: none"
+        >
           <div class="col-5 section-usecase__content-side">
             <h3 class="section-usecase__title">Parent</h3>
             <p class="section-usecase__des">
@@ -735,10 +738,7 @@
           </div>
           <div class="col-5 d-flex justify-content-center">
             <div class="album-container">
-              <div class="album-item item-large"></div>
-              <div class="album-item item-tall"></div>
-              <div class="album-item item-small"></div>
-              <div class="album-item item-wide"></div>
+              <img src="../wp-content/uploads/caprome-parent.png" alt="" />
             </div>
           </div>
         </div>
@@ -746,10 +746,10 @@
     </section>
 
     <script>
-      document.querySelectorAll(".nav-button").forEach((button) => {
+      document.querySelectorAll(".nav-buttons").forEach((button) => {
         button.addEventListener("click", () => {
-          document.querySelectorAll(".nav-button").forEach((btn) => btn.classList.remove("active"));
-          button.classList.add("active");
+          document.querySelectorAll(".nav-buttons").forEach((btn) => btn.classList.remove("actives"));
+          button.classList.add("actives");
           document.querySelectorAll(".section-usecase__navigtion-section").forEach((section) => {
             section.style.display = "none";
           });
@@ -847,7 +847,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-1">
-                    <img src="../wp-content/uploads/testimg1.png" alt="" />
+                    <img src="../wp-content/uploads/teach1.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -874,7 +874,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-1">
-                    <img src="../wp-content/uploads/testimg1.png" alt="" />
+                    <img src="../wp-content/uploads/teach3.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -888,7 +888,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-2">
-                    <img src="../wp-content/uploads/testimg2.png" alt="" />
+                    <img src="../wp-content/uploads/teach4.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -910,7 +910,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-1">
-                    <img src="../wp-content/uploads/testimg1.png" alt="" />
+                    <img src="../wp-content/uploads/lead1.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -924,7 +924,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-2">
-                    <img src="../wp-content/uploads/testimg2.png" alt="" />
+                    <img src="../wp-content/uploads/lead2.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -938,7 +938,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-1">
-                    <img src="../wp-content/uploads/testimg1.png" alt="" />
+                    <img src="../wp-content/uploads/lead3.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -952,7 +952,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-2">
-                    <img src="../wp-content/uploads/testimg2.png" alt="" />
+                    <img src="../wp-content/uploads/lead4.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -974,7 +974,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-1">
-                    <img src="../wp-content/uploads/testimg1.png" alt="" />
+                    <img src="../wp-content/uploads/stu1.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -988,7 +988,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-2">
-                    <img src="../wp-content/uploads/testimg2.png" alt="" />
+                    <img src="../wp-content/uploads/stu2.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -1002,7 +1002,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-1">
-                    <img src="../wp-content/uploads/testimg1.png" alt="" />
+                    <img src="../wp-content/uploads/stu3.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -1024,7 +1024,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-1">
-                    <img src="../wp-content/uploads/testimg1.png" alt="" />
+                    <img src="../wp-content/uploads/pr1.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -1037,7 +1037,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-1">
-                    <img src="../wp-content/uploads/testimg1.png" alt="" />
+                    <img src="../wp-content/uploads/pr2.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -1051,7 +1051,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-2">
-                    <img src="../wp-content/uploads/testimg2.png" alt="" />
+                    <img src="../wp-content/uploads/pr3.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -1065,7 +1065,7 @@
                     </p>
                   </div>
                   <div class="section-features__img-type-2">
-                    <img src="../wp-content/uploads/testimg2.png" alt="" />
+                    <img src="../wp-content/uploads/pr4.png" alt="" />
                   </div>
                 </div>
               </div>
