@@ -36,7 +36,7 @@
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="../wp-content/uploads/Caprome Leaning Logo.png" alt="Caprome Learning logo" />
+            <img src="../wp-content/uploads/Caprome-Leaning-Logo.png" alt="Caprome Learning logo" />
           </a>
           <button
             class="navbar-toggler"
@@ -55,7 +55,7 @@
                 <a class="nav-link active" aria-current="page" href="">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">about</a>
+                <a class="nav-link" href="">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">Use Cases</a>
@@ -101,7 +101,7 @@
               Caprome enables you to create a focused and distraction-free digital learning environment. Monitor,
               record, and analyze student activity to support effective learning, whether in the classroom or at home.
             </p>
-            <a href="">Request Demo</a>
+            <div class="request-demo-btn"><a href="">Request Demo</a></div>
           </div>
           <div class="col-6">
             <div class="section-hero__img-wrap">
@@ -1176,84 +1176,285 @@
         </div>
       </div>
     </section>
-    <!-- <footer>
-      <section class="sec-footer">
-        <img src="../wp-content/uploads/cap-23.png" class="bg-left" />
-        <img src="../wp-content/uploads/cap-24.png" class="bg-right" />
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-lg-5 d-flex flex-column align-items-center align-items-lg-start contact-set">
-              <div class="footer-logo">
-                <img src="../wp-content/uploads/cap-22.png" alt="Caprome footer logo" />
+    <section class="section-faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <div class="section-faq__tag">
+              <p>Frequently Asked Questions</p>
+            </div>
+            <h2 class="section-faq__main-title">Answers to all your queries</h2>
+            <div class="section-faq__faq-container">
+              <div>
+                <!-- FAQ card example -->
+                <div class="row justify-content-center faq-card-wrap">
+                  <div class="col-12">
+                    <div class="faq-card">
+                      <div class="faq-question" onclick="toggleFaq(this)">
+                        <img class="arrow" src="../wp-content/uploads/caprome-cross-icon.png" alt="Arrow" />
+                        <span class="question-text">How does Caprome support educational settings?</span>
+                      </div>
+                      <div class="faq-answer">
+                        <div class="p-1">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorem blanditiis maiores?
+                          Vel quibusdam iste nihil quo atque corporis natus recusandae facilis tempore delectus quis,
+                          repellat fugit ab repudiandae libero.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center faq-card-wrap">
+                  <div class="col-12">
+                    <div class="faq-card">
+                      <div class="faq-question" onclick="toggleFaq(this)">
+                        <img class="arrow" src="../wp-content/uploads/caprome-cross-icon.png" alt="Arrow" />
+                        <span class="question-text">Can I monitor students in real-time?</span>
+                      </div>
+                      <div class="faq-answer">
+                        <div class="p-1">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorem blanditiis maiores?
+                          Vel quibusdam iste nihil quo atque corporis natus recusandae facilis tempore delectus quis,
+                          repellat fugit ab repudiandae libero.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center faq-card-wrap">
+                  <div class="col-12">
+                    <div class="faq-card">
+                      <div class="faq-question" onclick="toggleFaq(this)">
+                        <img class="arrow" src="../wp-content/uploads/caprome-cross-icon.png" alt="Arrow" />
+                        <span class="question-text">Is Caprome compatible with multiple devices?</span>
+                      </div>
+                      <div class="faq-answer">
+                        <div class="p-1">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorem blanditiis maiores?
+                          Vel quibusdam iste nihil quo atque corporis natus recusandae facilis tempore delectus quis,
+                          repellat fugit ab repudiandae libero.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center faq-card-wrap">
+                  <div class="col-12">
+                    <div class="faq-card">
+                      <div class="faq-question" onclick="toggleFaq(this)">
+                        <img class="arrow" src="../wp-content/uploads/caprome-cross-icon.png" alt="Arrow" />
+                        <span class="question-text">How secure is my data with Caprome?</span>
+                      </div>
+                      <div class="faq-answer">
+                        <div class="p-1">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorem blanditiis maiores?
+                          Vel quibusdam iste nihil quo atque corporis natus recusandae facilis tempore delectus quis,
+                          repellat fugit ab repudiandae libero.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center faq-card-wrap">
+                  <div class="col-12">
+                    <div class="faq-card">
+                      <div class="faq-question" onclick="toggleFaq(this)">
+                        <img class="arrow" src="../wp-content/uploads/caprome-cross-icon.png" alt="Arrow" />
+                        <span class="question-text">How do I get started with a Caprome demo?</span>
+                      </div>
+                      <div class="faq-answer">
+                        <div class="p-1">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorem blanditiis maiores?
+                          Vel quibusdam iste nihil quo atque corporis natus recusandae facilis tempore delectus quis,
+                          repellat fugit ab repudiandae libero.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Additional FAQ cards can be added similarly -->
               </div>
-              <p class="footer-des">
-                Explore our resources and stay ahead in call center <br class="d-none d-lg-block" />management. Follow
-                us for ongoing updates and
-                <br class="d-none d-lg-block" />
-                support from Caprome.
+            </div>
+          </div>
+          <div class="col-5 section-faq__right-section">
+            <div class="section-faq__learn-more">
+              <div class="section-faq__learn-more-content">
+                <img src="../wp-content/uploads/caprome-lap-group.png" alt="" class="section-faq__lap-group" />
+                <h2 class="section-faq__title-ready">Ready to Learn More?</h2>
+                <p class="section-faq__des-ready">
+                  Reach out to us for a personalized consultation, pricing <br />
+                  details, and more. Our team is here to help you <br />
+                  understand how Caprome can meet your unique needs.
+                </p>
+                <a href="" class="section-faq__contact-us-btn">Contact Us</a>
+              </div>
+
+              <img src="../wp-content/uploads/caprome-bg-rectangle.png" alt="" class="section-faq__bg-rectangle" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        function toggleFaq(element) {
+          const faqCard = element.parentElement;
+          const faqAnswer = faqCard.querySelector(".faq-answer");
+
+          // Collapse any other open FAQ cards
+          const allFaqCards = document.querySelectorAll(".faq-card");
+          allFaqCards.forEach((card) => {
+            if (card !== faqCard && card.classList.contains("active")) {
+              card.classList.remove("active");
+              const answer = card.querySelector(".faq-answer");
+              answer.style.maxHeight = null;
+              answer.style.paddingTop = null;
+              answer.style.paddingBottom = null;
+              card.querySelector(".arrow").src = "../wp-content/uploads/caprome-cross-icon.png";
+            }
+          });
+
+          // Toggle the current FAQ card
+          if (faqCard.classList.contains("active")) {
+            faqCard.classList.remove("active");
+            faqAnswer.style.maxHeight = null;
+            faqAnswer.style.paddingTop = null;
+            faqAnswer.style.paddingBottom = null;
+            faqCard.querySelector(".arrow").src = "../wp-content/uploads/caprome-cross-icon.png";
+          } else {
+            faqCard.classList.add("active");
+            faqAnswer.style.maxHeight = faqAnswer.scrollHeight + "px";
+            faqAnswer.style.paddingTop = "10px";
+            faqAnswer.style.paddingBottom = "10px";
+            faqCard.querySelector(".arrow").src = "../wp-content/uploads/caprome-dash-icon.png";
+          }
+        }
+      </script>
+    </section>
+
+    <section class="section-demo">
+      <div class="container">
+        <div class="row justify-content-center">
+          <p class="tag">Demo</p>
+          <h2 class="title">Are you ready for a Demo?</h2>
+          <p class="des v2">
+            Experience Caprome in action. Schedule a demo to see how our platform can transform
+            <br class="d-none d-lg-block" />
+            your organization’s monitoring and reporting capabilities. Our team is ready to guide you
+            <br class="d-none d-lg-block" />
+            through the features and answer any questions you might have.
+          </p>
+          <div class="request-demo-btn"><a href="">Request Demo</a></div>
+        </div>
+        <div class="row">
+          <div class="col-12 section-demo__img-wrap">
+            <img src="../wp-content/uploads/caprome-dimo-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section class="section-footer">
+        <div class="section-footer__shape-maker-left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="155" height="108" viewBox="0 0 155 108" fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 0H154.25C124.565 0 100.5 24.0647 100.5 53.75C100.5 83.4353 76.4353 107.5 46.75 107.5H0V0Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+        <div class="section-footer__shape-maker-right">
+          <svg xmlns="http://www.w3.org/2000/svg" width="155" height="108" viewBox="0 0 155 108" fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M154.664 0H0.414032C30.0993 0 54.1641 24.0647 54.1641 53.75C54.1641 83.4353 78.2288 107.5 107.914 107.5H154.664V0Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+        <div class="container">
+          <div class="row section-footer__top-section">
+            <div
+              class="col-12 col-lg-5 d-flex flex-column align-items-center align-items-lg-start section-footer__identity"
+            >
+              <div class="section-footer__logo">
+                <img src="../wp-content/uploads/Caprome-Leaning-Logo.png" alt="Caprome Learning logo" />
+              </div>
+              <p class="section-footer__footer-des">
+                From advanced monitoring features to seamless <br class="d-none d-lg-block" />
+                integration with educational tools, Caprome is <br class="d-none d-lg-block" />
+                tailored to meet the needs of modern educational <br class="d-none d-lg-block" />environments.
               </p>
             </div>
             <div class="col-6 col-lg-3 d-flex flex-column contact-set">
-              <h4 class="footer-title">Quick Links</h4>
-              <ul class="footer-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Term of services</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
+              <h4 class="section-footer__title">Quick Links</h4>
+              <div class="section-footer__nav">
+                <div class="section-footer__nav-list"><a href="#" class="section-footer__nav-name">About</a></div>
+                <div class="section-footer__nav-list"><a href="#" class="section-footer__nav-name">Use Cases</a></div>
+                <div class="section-footer__nav-list"><a href="#" class="section-footer__nav-name">Features</a></div>
+                <div class="section-footer__nav-list">
+                  <a href="#" class="section-footer__nav-name">Security</a>
+                </div>
+                <div class="section-footer__nav-list">
+                  <a href="#" class="section-footer__nav-name">FAQs</a>
+                </div>
+                <div class="section-footer__nav-list">
+                  <a href="#" class="section-footer__nav-name">Privacy Policy</a>
+                </div>
+              </div>
             </div>
             <div class="col-6 col-lg-4 d-flex flex-column contact-set">
-              <h4 class="footer-title">Contact us</h4>
+              <h4 class="section-footer__title">Contact us</h4>
               <div class="point">
                 <div class="svg-warp">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                     <path
-                      d="M15.4998 3.27832C8.76048 3.27832 3.27759 8.76121 3.27759 15.5005V20.5642C3.27759 21.8158 4.37392 22.8339 5.72203 22.8339H6.94425C7.26841 22.8339 7.57929 22.7051 7.8085 22.4759C8.03771 22.2467 8.16648 21.9358 8.16648 21.6117V15.3258C8.16648 15.0016 8.03771 14.6907 7.8085 14.4615C7.57929 14.2323 7.26841 14.1035 6.94425 14.1035H5.83448C6.51403 9.37354 10.584 5.72276 15.4998 5.72276C20.4156 5.72276 24.4856 9.37354 25.1651 14.1035H24.0554C23.7312 14.1035 23.4203 14.2323 23.1911 14.4615C22.9619 14.6907 22.8331 15.0016 22.8331 15.3258V22.8339C22.8331 24.182 21.7368 25.2783 20.3887 25.2783H17.9443V24.0561H13.0554V27.7228H20.3887C23.0849 27.7228 25.2776 25.5301 25.2776 22.8339C26.6257 22.8339 27.722 21.8158 27.722 20.5642V15.5005C27.722 8.76121 22.2391 3.27832 15.4998 3.27832Z"
-                      fill="#E0E0E0"
+                      d="M14.6666 2.4458C7.92723 2.4458 2.44434 7.92869 2.44434 14.668V19.7317C2.44434 20.9832 3.54067 22.0014 4.88878 22.0014H6.111C6.43516 22.0014 6.74603 21.8726 6.97524 21.6434C7.20446 21.4142 7.33323 21.1033 7.33323 20.7791V14.4932C7.33323 14.1691 7.20446 13.8582 6.97524 13.629C6.74603 13.3998 6.43516 13.271 6.111 13.271H5.00122C5.68078 8.54102 9.75078 4.89025 14.6666 4.89025C19.5823 4.89025 23.6523 8.54102 24.3319 13.271H23.2221C22.898 13.271 22.5871 13.3998 22.3579 13.629C22.1287 13.8582 21.9999 14.1691 21.9999 14.4932V22.0014C21.9999 23.3495 20.9036 24.4458 19.5554 24.4458H17.111V23.2236H12.2221V26.8902H19.5554C22.2517 26.8902 24.4443 24.6976 24.4443 22.0014C25.7924 22.0014 26.8888 20.9832 26.8888 19.7317V14.668C26.8888 7.92869 21.4059 2.4458 14.6666 2.4458Z"
+                      fill="#707190"
                     />
                   </svg>
                 </div>
                 <div class="content">
-                  <p class="contact-titile">phone</p>
-                  <p class="contact-des" href="+1 (202) 232 5300">+1 (202) 232 5300</p>
+                  <p class="section-footer__title2">phone</p>
+                  <p class="section-footer__des2" href="+1 (202) 232 5300">+1 (202) 232 5300</p>
                 </div>
               </div>
               <div class="point">
                 <div class="svg-warp">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                     <path
-                      d="M28.3333 8C28.3333 6.625 27.2083 5.5 25.8333 5.5H5.83325C4.45825 5.5 3.33325 6.625 3.33325 8V23C3.33325 24.375 4.45825 25.5 5.83325 25.5H25.8333C27.2083 25.5 28.3333 24.375 28.3333 23V8ZM25.8333 8L15.8333 14.25L5.83325 8H25.8333ZM25.8333 23H5.83325V10.5L15.8333 16.75L25.8333 10.5V23Z"
-                      fill="#E0E0E0"
+                      d="M27.5 7.5C27.5 6.125 26.375 5 25 5H5C3.625 5 2.5 6.125 2.5 7.5V22.5C2.5 23.875 3.625 25 5 25H25C26.375 25 27.5 23.875 27.5 22.5V7.5ZM25 7.5L15 13.75L5 7.5H25ZM25 22.5H5V10L15 16.25L25 10V22.5Z"
+                      fill="#707190"
                     />
                   </svg>
                 </div>
                 <div class="content">
-                  <p class="contact-titile">email</p>
-                  <p class="contact-des" href="+1 (202) 232 5300">info@ caprome.com</p>
+                  <p class="section-footer__title2">email</p>
+                  <p class="section-footer__des2" href="+1 (202) 232 5300">info@ caprome.com</p>
                 </div>
               </div>
               <div class="point">
                 <div class="svg-warp">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                    <g clip-path="url(#clip0_1325_1780)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <g clip-path="url(#clip0_634_736)">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
-                        d="M15.8333 3C18.8169 3 21.6784 4.18526 23.7882 6.29505C25.898 8.40483 27.0833 11.2663 27.0833 14.25C27.0833 18.0925 24.9883 21.2375 22.7808 23.4938C21.6778 24.6088 20.4744 25.6198 19.1858 26.5138L18.6533 26.8763L18.4033 27.0425L17.932 27.3425L17.512 27.5988L16.992 27.9013C16.639 28.1027 16.2397 28.2087 15.8333 28.2087C15.4268 28.2087 15.0275 28.1027 14.6745 27.9013L14.1545 27.5988L13.5045 27.1988L13.2645 27.0425L12.752 26.7013C11.3618 25.7607 10.0669 24.6864 8.88575 23.4938C6.67825 21.2363 4.58325 18.0925 4.58325 14.25C4.58325 11.2663 5.76852 8.40483 7.8783 6.29505C9.98808 4.18526 12.8496 3 15.8333 3ZM15.8333 5.5C13.5126 5.5 11.287 6.42187 9.64607 8.06282C8.00512 9.70376 7.08325 11.9294 7.08325 14.25C7.08325 17.1525 8.67325 19.7 10.672 21.745C11.5314 22.615 12.4603 23.4135 13.4495 24.1325L14.022 24.54C14.207 24.6692 14.3849 24.7892 14.5558 24.9L15.0433 25.2125L15.472 25.4738L15.8333 25.685L16.402 25.3488L16.8608 25.0613C17.1049 24.9063 17.3662 24.7325 17.6445 24.54L18.217 24.1325C19.2062 23.4135 20.1351 22.615 20.9945 21.745C22.9933 19.7013 24.5833 17.1525 24.5833 14.25C24.5833 11.9294 23.6614 9.70376 22.0204 8.06282C20.3795 6.42187 18.1539 5.5 15.8333 5.5ZM15.8333 9.25C17.1593 9.25 18.4311 9.77678 19.3688 10.7145C20.3065 11.6521 20.8333 12.9239 20.8333 14.25C20.8333 15.5761 20.3065 16.8479 19.3688 17.7855C18.4311 18.7232 17.1593 19.25 15.8333 19.25C14.5072 19.25 13.2354 18.7232 12.2977 17.7855C11.36 16.8479 10.8333 15.5761 10.8333 14.25C10.8333 12.9239 11.36 11.6521 12.2977 10.7145C13.2354 9.77678 14.5072 9.25 15.8333 9.25ZM15.8333 11.75C15.1702 11.75 14.5343 12.0134 14.0655 12.4822C13.5966 12.9511 13.3333 13.587 13.3333 14.25C13.3333 14.913 13.5966 15.5489 14.0655 16.0178C14.5343 16.4866 15.1702 16.75 15.8333 16.75C16.4963 16.75 17.1322 16.4866 17.601 16.0178C18.0699 15.5489 18.3333 14.913 18.3333 14.25C18.3333 13.587 18.0699 12.9511 17.601 12.4822C17.1322 12.0134 16.4963 11.75 15.8333 11.75Z"
-                        fill="#E0E0E0"
+                        d="M15 2.5C17.9837 2.5 20.8452 3.68526 22.955 5.79505C25.0647 7.90483 26.25 10.7663 26.25 13.75C26.25 17.5925 24.155 20.7375 21.9475 22.9938C20.8446 24.1088 19.6412 25.1198 18.3525 26.0138L17.82 26.3763L17.57 26.5425L17.0988 26.8425L16.6788 27.0988L16.1588 27.4013C15.8058 27.6027 15.4064 27.7087 15 27.7087C14.5936 27.7087 14.1942 27.6027 13.8412 27.4013L13.3212 27.0988L12.6713 26.6988L12.4312 26.5425L11.9187 26.2013C10.5285 25.2607 9.23363 24.1864 8.0525 22.9938C5.845 20.7363 3.75 17.5925 3.75 13.75C3.75 10.7663 4.93526 7.90483 7.04505 5.79505C9.15483 3.68526 12.0163 2.5 15 2.5ZM15 5C12.6794 5 10.4538 5.92187 8.81282 7.56282C7.17187 9.20376 6.25 11.4294 6.25 13.75C6.25 16.6525 7.84 19.2 9.83875 21.245C10.6982 22.115 11.6271 22.9135 12.6163 23.6325L13.1887 24.04C13.3737 24.1692 13.5517 24.2892 13.7225 24.4L14.21 24.7125L14.6388 24.9738L15 25.185L15.5688 24.8488L16.0275 24.5613C16.2717 24.4063 16.5329 24.2325 16.8113 24.04L17.3837 23.6325C18.3729 22.9135 19.3018 22.115 20.1612 21.245C22.16 19.2013 23.75 16.6525 23.75 13.75C23.75 11.4294 22.8281 9.20376 21.1872 7.56282C19.5462 5.92187 17.3206 5 15 5ZM15 8.75C16.3261 8.75 17.5979 9.27678 18.5355 10.2145C19.4732 11.1521 20 12.4239 20 13.75C20 15.0761 19.4732 16.3479 18.5355 17.2855C17.5979 18.2232 16.3261 18.75 15 18.75C13.6739 18.75 12.4021 18.2232 11.4645 17.2855C10.5268 16.3479 10 15.0761 10 13.75C10 12.4239 10.5268 11.1521 11.4645 10.2145C12.4021 9.27678 13.6739 8.75 15 8.75ZM15 11.25C14.337 11.25 13.7011 11.5134 13.2322 11.9822C12.7634 12.4511 12.5 13.087 12.5 13.75C12.5 14.413 12.7634 15.0489 13.2322 15.5178C13.7011 15.9866 14.337 16.25 15 16.25C15.663 16.25 16.2989 15.9866 16.7678 15.5178C17.2366 15.0489 17.5 14.413 17.5 13.75C17.5 13.087 17.2366 12.4511 16.7678 11.9822C16.2989 11.5134 15.663 11.25 15 11.25Z"
+                        fill="#707190"
                       />
                     </g>
                     <defs>
-                      <clipPath id="clip0_1325_1780">
-                        <rect width="30" height="30" fill="white" transform="translate(0.833252 0.5)" />
+                      <clipPath id="clip0_634_736">
+                        <rect width="30" height="30" fill="white" />
                       </clipPath>
                     </defs>
                   </svg>
                 </div>
                 <div class="content">
-                  <p class="contact-titile">Address</p>
-                  <address class="contact-des" href="+1 (202) 232 5300">
+                  <p class="section-footer__title2">Address</p>
+                  <address class="section-footer__des2">
                     10 ANSON ROAD, #22-02 <br />
                     INTERNATIONAL PLAZA, <br />SINGAPORE.079903
                   </address>
@@ -1269,7 +1470,7 @@
           </div>
         </div>
       </section>
-    </footer> -->
+    </footer>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const links = document.querySelectorAll(".navbar-nav .nav-link");
