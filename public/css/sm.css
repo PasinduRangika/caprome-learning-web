@@ -226,4 +226,7 @@
   .section-features .tag {
     margin: 0 auto;
   }
+  .section-faq__main-title {
+    text-align: center;
+  }
 }

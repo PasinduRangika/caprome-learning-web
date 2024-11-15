@@ -92,4 +92,40 @@
   .section-features__des {
     text-align: start;
   }
+  .section-faq__lap-group {
+    width: 220px;
+    height: 160px;
+  }
+  .section-security {
+    padding-bottom: 120px;
+  }
+  .section-faq__title-ready-mobile {
+    text-align: center !important;
+    color: var(--tertiary-text-color) !important;
+  }
+  .section-faq__learn-more-content-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-us-mobile {
+    background-color: #3f43dc;
+    margin-bottom: 70px;
+    padding: 50px 0px;
+  }
+  .section-faq__lap-group {
+    margin-bottom: 30px;
+    width: 300px;
+    height: auto;
+  }
+  .section-faq {
+    padding: 60px 0px 0px 0px;
+    position: relative;
+    margin-bottom: 0px;
+  }
+  .section-faq__des-ready-mobile {
+    padding-bottom: 20px;
+    color: var(--tertiary-text-color) !important;
+  }
 }
