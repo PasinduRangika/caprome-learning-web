@@ -94,16 +94,16 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <h1>Capture</h1>
             <h2>Learning Environments</h2>
             <p>
               Caprome enables you to create a focused and distraction-free digital learning environment. Monitor,
               record, and analyze student activity to support effective learning, whether in the classroom or at home.
             </p>
-            <div class="request-demo-btn"><a href="">Request Demo</a></div>
+            <div class="request-demo-btn v2"><a href="">Request Demo</a></div>
           </div>
-          <div class="col-6">
+          <div class="d-none d-md-block col-md-6">
             <div class="section-hero__img-wrap">
               <img src="../wp-content/uploads/caprome-hero-img.png" alt="" />
             </div>
@@ -125,7 +125,7 @@
           <h2 class="title">Why Choose CAPROME?</h2>
         </div>
         <div class="row section-about__cards">
-          <div class="col-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="section-about__card">
               <div class="section-about__icon-head">
                 <svg xmlns="http://www.w3.org/2000/svg" width="63" height="64" viewBox="0 0 63 64" fill="none">
@@ -141,7 +141,7 @@
               </p>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="section-about__card">
               <div class="section-about__icon-head">
                 <svg xmlns="http://www.w3.org/2000/svg" width="63" height="64" viewBox="0 0 63 64" fill="none">
@@ -157,7 +157,7 @@
               </p>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="section-about__card">
               <div class="section-about__icon-head">
                 <svg xmlns="http://www.w3.org/2000/svg" width="63" height="64" viewBox="0 0 63 64" fill="none">
@@ -171,7 +171,7 @@
               <p class="section-about__card-des">Optimized for Chrome OS, Caprome works seamlessly on Chromebooks.</p>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="section-about__card">
               <div class="section-about__icon-head">
                 <svg xmlns="http://www.w3.org/2000/svg" width="63" height="64" viewBox="0 0 63 64" fill="none">
@@ -206,7 +206,7 @@
           </p>
         </div>
         <div class="row d-flex align-items-center">
-          <div class="col-6">
+          <div class="col-12 col-lg-7 col-xl-6 order-2 order-lg-1">
             <div class="section-privilage__sub-row first">
               <div class="section-privilage__sub-container">
                 <div class="section-privilage__minitag1">
@@ -294,7 +294,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-10 col-lg-5 col-xl-6 order-1 order-lg-2">
             <div class="section-privilage__img-wrap">
               <img src="../wp-content/uploads/caprome-role-base.png" alt="" />
             </div>
@@ -304,7 +304,7 @@
     </section>
     <section class="section-chrombook">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center d-none d-xl-flex">
           <div class="col-12 d-flex justify-content-center">
             <div
               class="section-chrombook__container"
@@ -358,9 +358,27 @@
             </div>
           </div>
         </div>
+        <div class="row d-flex d-xl-none section-chormbook-mobile align-items-center">
+          <div class="col-12 col-lg-5 section-chrombook__img-mobile">
+            <img src="../wp-content/uploads/caprome-air-m2.png" alt="" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="section-chrombook__content-wrap-mobile">
+              <h2>Seamless with</h2>
+              <h1>Chromebook!</h1>
+              <p>
+                Caprome is optimized for Chromebooks, ensuring <br class="d-none d-lg-block" />
+                a smooth experience for educational environments.<br class="d-none d-lg-block" />
+                Set up Caprome effortlessly on Chromebooks and <br class="d-none d-lg-block" />
+                enjoy full functionality without additional software <br class="d-none d-lg-block" />
+                or hardware requirements.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="section-usecase">
+    <!-- <section class="section-usecase">
       <div class="container">
         <div class="row justify-content-center">
           <p class="tag">Use Cases</p>
@@ -743,9 +761,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <script>
+    <!-- <script>
       document.querySelectorAll(".nav-buttons").forEach((button) => {
         button.addEventListener("click", () => {
           document.querySelectorAll(".nav-buttons").forEach((btn) => btn.classList.remove("actives"));
@@ -757,8 +775,8 @@
           document.getElementById(target).style.display = "flex";
         });
       });
-    </script>
-    <section class="section-features">
+    </script> -->
+    <!-- <section class="section-features">
       <div class="container">
         <div class="row">
           <p class="tag">Features</p>
@@ -788,7 +806,7 @@
               <br class="d-none d-lg-block" />
               digital learning environments. Teachers benefit from:
             </p>
-            <!-- Add other section descriptions here -->
+          
             <p class="section-features__des" id="lead-des" style="display: none">
               For students who may benefit from additional guidance or feedback, Caprome provides a way to self-reflect
               <br class="d-none d-lg-block" />
@@ -833,7 +851,6 @@
       </div>
 
       <div class="container section-features__slider-section">
-        <!-- Teacher Slider Section -->
         <div class="row justify-content-start feature-content" id="tech">
           <div class="swiper-container teacher-swiper">
             <div class="swiper-wrapper">
@@ -895,8 +912,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Leader Slider Section -->
         <div class="row justify-content-start feature-content" id="lead" style="display: none">
           <div class="swiper-container leader-swiper">
             <div class="swiper-wrapper">
@@ -959,8 +974,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Student Slider Section -->
         <div class="row justify-content-start feature-content" id="stu" style="display: none">
           <div class="swiper-container student-swiper">
             <div class="swiper-wrapper">
@@ -1009,8 +1022,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Parent Slider Section -->
         <div class="row justify-content-start feature-content" id="pt" style="display: none">
           <div class="swiper-container parent-swiper">
             <div class="swiper-wrapper">
@@ -1074,10 +1085,8 @@
         </div>
       </div>
 
-      <!-- Swiper JS -->
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
       <script>
-        // Initialize Swipers for each section
         const teacherSwiper = new Swiper(".teacher-swiper", {
           slidesPerView: 2.5,
           spaceBetween: 15,
@@ -1113,27 +1122,20 @@
             prevEl: ".swiper-button-prev",
           },
         });
-
-        // Toggle sections and descriptions based on navigation buttons
         document.querySelectorAll(".nav-button").forEach((button) => {
           button.addEventListener("click", () => {
-            // Toggle active button
             document.querySelectorAll(".nav-button").forEach((btn) => btn.classList.remove("active"));
             button.classList.add("active");
-
-            // Toggle descriptions
             document.querySelectorAll(".section-features__des").forEach((desc) => (desc.style.display = "none"));
             document.getElementById(`${button.getAttribute("data-target")}-des`).style.display = "block";
-
-            // Toggle feature content sections
             document.querySelectorAll(".feature-content").forEach((section) => (section.style.display = "none"));
             document.getElementById(button.getAttribute("data-target")).style.display = "flex";
           });
         });
       </script>
-    </section>
+    </section> -->
 
-    <section class="section-security">
+    <!-- <section class="section-security">
       <div class="container">
         <div class="row justify-content-center">
           <p class="tag">Security</p>
@@ -1175,8 +1177,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="section-faq">
+    </section> -->
+    <!-- <section class="section-faq">
       <div class="container">
         <div class="row">
           <div class="col-7">
@@ -1186,7 +1188,6 @@
             <h2 class="section-faq__main-title">Answers to all your queries</h2>
             <div class="section-faq__faq-container">
               <div>
-                <!-- FAQ card example -->
                 <div class="row justify-content-center faq-card-wrap">
                   <div class="col-12">
                     <div class="faq-card">
@@ -1272,7 +1273,6 @@
                     </div>
                   </div>
                 </div>
-                <!-- Additional FAQ cards can be added similarly -->
               </div>
             </div>
           </div>
@@ -1299,7 +1299,7 @@
           const faqCard = element.parentElement;
           const faqAnswer = faqCard.querySelector(".faq-answer");
 
-          // Collapse any other open FAQ cards
+
           const allFaqCards = document.querySelectorAll(".faq-card");
           allFaqCards.forEach((card) => {
             if (card !== faqCard && card.classList.contains("active")) {
@@ -1312,7 +1312,7 @@
             }
           });
 
-          // Toggle the current FAQ card
+
           if (faqCard.classList.contains("active")) {
             faqCard.classList.remove("active");
             faqAnswer.style.maxHeight = null;
@@ -1328,9 +1328,9 @@
           }
         }
       </script>
-    </section>
+    </section> -->
 
-    <section class="section-demo">
+    <!-- <section class="section-demo">
       <div class="container">
         <div class="row justify-content-center">
           <p class="tag">Demo</p>
@@ -1350,8 +1350,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <footer>
+    </section> -->
+    <!-- <footer>
       <section class="section-footer">
         <div class="section-footer__shape-maker-left">
           <svg xmlns="http://www.w3.org/2000/svg" width="155" height="108" viewBox="0 0 155 108" fill="none">
@@ -1470,8 +1470,8 @@
           </div>
         </div>
       </section>
-    </footer>
-    <script>
+    </footer> -->
+    <!-- <script>
       document.addEventListener("DOMContentLoaded", function () {
         const links = document.querySelectorAll(".navbar-nav .nav-link");
         const currentUrl = window.location.href;
@@ -1482,8 +1482,8 @@
           }
         });
       });
-    </script>
-    <script>
+    </script> -->
+    <!-- <script>
       const scrollElements = document.querySelectorAll(".js-scroll");
 
       const elementInView = (el, dividend = 1) => {
@@ -1514,11 +1514,11 @@
           }
         });
       };
-    </script>
-    <script>
+    </script> -->
+    <!-- <script>
       window.addEventListener("scroll", function () {
         handleScrollAnimation();
       });
-    </script>
+    </script> -->
   </body>
 </html>

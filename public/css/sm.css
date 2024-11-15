@@ -124,4 +124,70 @@
   .section-tvshow__topcard {
     width: 50%;
   }
+  .section-hero__img-wrap {
+    display: none;
+  }
+  .section-hero__video-wrap img {
+    width: 300px;
+    height: auto;
+  }
+  .section-hero {
+    padding-top: 160px;
+  }
+  .section-hero h1 {
+    text-align: center;
+  }
+  .section-hero h2 {
+    text-align: center;
+  }
+  .section-hero p {
+    text-align: center;
+  }
+  .request-demo-btn.v2 {
+    margin: 0 auto;
+  }
+  .section-hero {
+    height: 600px;
+    padding-top: 150px;
+  }
+  .section-hero__shape-maker-left,
+  .section-hero__shape-maker-right {
+    display: none;
+  }
+  .section-hero__video-wrap img {
+    bottom: -200px;
+  }
+  .section-hero__video-wrap img {
+    width: 350px;
+    height: auto;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .section-privilage__sub-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .section-privilage__sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .section-privilage__img-wrap {
+    margin-bottom: 50px;
+  }
+  .section-privileage__role-des {
+    text-align: center;
+  }
+  .section-privilage__sub-row.first {
+    padding-bottom: 0px;
+  }
+  .section-chormbook-mobile {
+    padding: 30px;
+    border-radius: 0px;
+  }
 }

@@ -1,4 +1,11 @@
 @media (max-width: 991.98px) {
+  .nav-item {
+    padding-bottom: 20px;
+  }
+  .navbar-nav .nav-item:first-child {
+    padding-top: 30px;
+  }
+
   .section-hero__des.des-1 {
     display: none;
   }
@@ -44,5 +51,40 @@
   }
   .section-tvshow__bottom-card {
     width: 100%;
+  }
+  .section-hero__video-wrap img {
+    width: 600px;
+    height: auto;
+  }
+  .section-hero h1 {
+    font-size: 52px;
+  }
+  .section-hero h2 {
+    font-size: 28px;
+  }
+  .section-hero p {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .section-hero__video-wrap img {
+    bottom: -350px;
+  }
+  .section-about {
+    padding: 250px 0px 150px 0px;
+  }
+  .section-privilage__img-wrap {
+    margin-bottom: 100px;
+  }
+  .section-chormbook-mobile {
+    display: flex;
+    justify-content: center;
+  }
+  .section-chrombook__img-mobile {
+    margin-bottom: 30px;
+  }
+  .section-chrombook h2,
+  h1,
+  p {
+    text-align: center;
   }
 }

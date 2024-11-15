@@ -45,4 +45,40 @@
     font-size: 60px;
     color: var(--tertiary-text-color);
   }
+  .section-hero__video-wrap img {
+    width: 800px;
+    height: auto;
+  }
+  .section-hero {
+    height: 800px;
+    padding-top: 150px;
+  }
+  .section-about__card {
+    margin-bottom: 20px;
+  }
+  .section-privilage {
+    padding: 0px 0px 60px 0px;
+  }
+  .section-privilage__sub-container {
+    width: fit-content;
+  }
+  .section-chormbook-mobile {
+    background-color: #497ff9;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+  }
+  .section-chrombook__img-mobile {
+    background-color: #f3f5ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .section-chrombook {
+    padding: 40px 0px 100px 0px;
+  }
+  .section-chrombook__img-mobile img {
+    width: 100%;
+  }
 }
