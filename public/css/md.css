@@ -87,4 +87,27 @@
   p {
     text-align: center;
   }
+  .section-usecase__des {
+    text-align: start;
+  }
+  .section-usecase__point-des {
+    text-align: start;
+  }
+  .section-features__navigation-section {
+    padding: 40px 0px;
+  }
+  .section-features__img-type-1 img {
+    width: 400px;
+    height: auto;
+  }
+  .section-features__img-type-2 img {
+    width: 400px;
+    height: auto;
+  }
+  .section-features__slide-des {
+    text-align: start;
+  }
+  .section-features__content-section {
+    padding: 30px;
+  }
 }

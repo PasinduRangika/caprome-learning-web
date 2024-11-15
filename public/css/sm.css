@@ -190,4 +190,40 @@
     padding: 30px;
     border-radius: 0px;
   }
+  .nav-buttons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav-buttons.actives {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section-features__img-type-1 img {
+    width: 100px;
+    height: auto;
+  }
+  .section-features__img-type-2 img {
+    width: 100px;
+    height: auto;
+  }
+  .nav-button.active {
+    margin-bottom: 20px;
+  }
+  .nav-button {
+    margin-bottom: 20px;
+  }
+  .section-features__img-type-1 img {
+    width: 300px;
+    height: auto;
+  }
+  .section-features__img-type-2 img {
+    width: 300px;
+    height: auto;
+  }
+  .section-features .title {
+    text-align: center !important;
+  }
+  .section-features .tag {
+    margin: 0 auto;
+  }
 }

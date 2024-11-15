@@ -76,9 +76,20 @@
     justify-content: center;
   }
   .section-chrombook {
-    padding: 40px 0px 100px 0px;
+    padding: 40px 0px 150px 0px;
   }
   .section-chrombook__img-mobile img {
     width: 100%;
+  }
+  .section-features__img-type-1 img {
+    width: 340px;
+    height: auto;
+  }
+  .section-features__img-type-2 img {
+    width: 340px;
+    height: auto;
+  }
+  .section-features__des {
+    text-align: start;
   }
 }
