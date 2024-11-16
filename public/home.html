@@ -52,16 +52,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-2">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Use Cases</a>
+                <a class="nav-link" href="#use-cases">Use Cases</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
             </ul>
             <button class="request-demo-btn" type="submit">
@@ -71,7 +71,7 @@
         </div>
       </nav>
     </header>
-    <section class="section-hero">
+    <section class="section-hero" id="home">
       <div class="section-hero__shape-maker-right">
         <svg xmlns="http://www.w3.org/2000/svg" width="155" height="108" viewBox="0 0 155 108" fill="none">
           <path
@@ -118,7 +118,7 @@
         </div>
       </div>
     </section>
-    <section class="section-about">
+    <section class="section-about" id="about">
       <div class="container">
         <div class="row">
           <p class="tag">about</p>
@@ -378,7 +378,7 @@
         </div>
       </div>
     </section>
-    <section class="section-usecase">
+    <section class="section-usecase" id="use-cases">
       <div class="container">
         <div class="row justify-content-center">
           <p class="tag">Use Cases</p>
@@ -776,7 +776,7 @@
         });
       });
     </script>
-    <section class="section-features">
+    <section class="section-features" id="features">
       <div class="container">
         <div class="row">
           <p class="tag">Features</p>
@@ -1451,17 +1451,18 @@
             <div class="col-6 col-lg-3 d-flex flex-column contact-set">
               <h4 class="section-footer__title">Quick Links</h4>
               <div class="section-footer__nav">
-                <div class="section-footer__nav-list"><a href="#" class="section-footer__nav-name">About</a></div>
-                <div class="section-footer__nav-list"><a href="#" class="section-footer__nav-name">Use Cases</a></div>
-                <div class="section-footer__nav-list"><a href="#" class="section-footer__nav-name">Features</a></div>
+                <div class="section-footer__nav-list"><a href="#about" class="section-footer__nav-name">About</a></div>
                 <div class="section-footer__nav-list">
-                  <a href="#" class="section-footer__nav-name">Security</a>
+                  <a href="#use-cases" class="section-footer__nav-name">Use Cases</a>
                 </div>
                 <div class="section-footer__nav-list">
-                  <a href="#" class="section-footer__nav-name">FAQs</a>
+                  <a href="#features" class="section-footer__nav-name">Features</a>
                 </div>
                 <div class="section-footer__nav-list">
-                  <a href="#" class="section-footer__nav-name">Privacy Policy</a>
+                  <a href="#security" class="section-footer__nav-name">Security</a>
+                </div>
+                <div class="section-footer__nav-list">
+                  <a href="#FAQs" class="section-footer__nav-name">FAQs</a>
                 </div>
               </div>
             </div>
@@ -1531,54 +1532,51 @@
           </div>
         </div>
       </section>
-    </footer> -->
-    <!-- <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const links = document.querySelectorAll(".navbar-nav .nav-link");
-        const currentUrl = window.location.href;
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
 
-        links.forEach((link) => {
-          if (link.href === currentUrl) {
-            link.classList.add("active");
-          }
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                navLinks.forEach((link) => {
+                  link.classList.toggle("active", link.getAttribute("href").substring(1) === entry.target.id);
+                });
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+
+        sections.forEach((section) => {
+          observer.observe(section);
         });
-      });
-    </script> -->
-    <!-- <script>
-      const scrollElements = document.querySelectorAll(".js-scroll");
 
-      const elementInView = (el, dividend = 1) => {
-        const elementTop = el.getBoundingClientRect().top;
-        return elementTop <= (window.innerHeight || document.documentElement.clientHeight) / dividend;
-      };
+        navLinks.forEach((link) => {
+          link.addEventListener("click", (e) => {
+            e.preventDefault();
 
-      const elementOutofView = (el) => {
-        const elementTop = el.getBoundingClientRect().top;
+            const targetId = link.getAttribute("href").substring(1);
+            const targetSection = document.getElementById(targetId);
 
-        return elementTop > (window.innerHeight || document.documentElement.clientHeight);
-      };
-
-      const displayScrollElement = (element) => {
-        element.classList.add("scrolled");
-      };
-
-      const hideScrollElement = (element) => {
-        element.classList.remove("scrolled");
-      };
-
-      const handleScrollAnimation = () => {
-        scrollElements.forEach((el) => {
-          if (elementInView(el, 1.25)) {
-            displayScrollElement(el);
-          } else if (elementOutofView(el)) {
-            hideScrollElement(el);
-          }
+            if (targetSection) {
+              if (targetId === "about") {
+                window.scrollTo({
+                  top: targetSection.offsetTop + 300,
+                  behavior: "smooth",
+                });
+              } else {
+                window.scrollTo({
+                  top: targetSection.offsetTop - 120,
+                  behavior: "smooth",
+                });
+              }
+            }
+          });
         });
-      };
-    </script> -->
-    <!-- <script>
-      window.addEventListener("scroll", function () {
-        handleScrollAnimation();
       });
     </script>
   </body>

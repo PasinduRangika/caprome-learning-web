@@ -22,6 +22,10 @@ h6 {
   color: var(--primary-text-color) !important ;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   /* Primary Colors */
   --primary-color: #497ff9;

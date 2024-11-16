@@ -128,4 +128,7 @@
     padding-bottom: 20px;
     color: var(--tertiary-text-color) !important;
   }
+  .section-faq__des-ready-mobile {
+    text-align: center;
+  }
 }
