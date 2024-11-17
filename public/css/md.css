@@ -129,4 +129,22 @@
   .section-footer__footer-des {
     padding-bottom: 30px;
   }
+  /* model */
+  .modal .forminput {
+    width: 475px !important;
+  }
+  .modal .forminputtext {
+    width: 475px !important;
+  }
+  .modal .formdrown {
+    width: 475px !important;
+  }
+  .modal .file-upload-wrap {
+    width: 475px !important;
+  }
+  .modal-content {
+    width: 80%;
+    border-radius: 30px;
+    max-height: 62vh;
+  }
 }

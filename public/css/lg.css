@@ -131,4 +131,26 @@
   .section-faq__des-ready-mobile {
     text-align: center;
   }
+  /* model */
+  .modal .forminput {
+    width: 425px !important;
+  }
+  .modal .forminputtext {
+    width: 425px !important;
+  }
+  .modal .formdrown {
+    width: 425px !important;
+  }
+  .modal .file-upload-wrap {
+    width: 425px !important;
+  }
+
+  .modal .file-upload-wrap-inner {
+    width: 350px;
+  }
+  .modal-content {
+    width: 60%;
+    border-radius: 30px;
+    max-height: 62vh;
+  }
 }
